@@ -2,16 +2,16 @@
     margin-top: 25px;
 }
 
-.fab {
+.fa-2x {
     float:right;
     padding: 5px;
     color: black;
 }
 
-.fas {
-    float:right;
+.fab {
     padding: 5px;
     color: black;
+
 } 
 
 #profPic {
