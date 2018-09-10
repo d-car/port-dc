@@ -4,7 +4,15 @@
 
 .fab {
     float:right;
+    padding: 5px;
+    color: black;
 }
+
+.fas {
+    float:right;
+    padding: 5px;
+    color: black;
+} 
 
 #profPic {
     float:right;
