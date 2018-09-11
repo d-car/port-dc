@@ -13,14 +13,26 @@ footer {
     text-align: center;
 }
 
-.footerContent {
-    padding: 20px;
-}
-
 .fa-2x {
     float:right;
     padding: 5px;
     color: black;
+}
+
+.footerLogos {
+    float:right;
+    color: black;
+}
+
+.footerMail {
+    float:left;
+    padding-left:5px;
+    color: black;
+}
+
+#phone {
+    position:relative;
+    left: 5px;
 }
 
 .fab {
@@ -29,7 +41,7 @@ footer {
 
 } 
 
-#otherLogo {
+.otherLogo {
     position: relative;
     bottom: 15px;
     padding: 5px;
@@ -37,4 +49,8 @@ footer {
 
 #profPic {
     float:right;
+}
+
+#footLink {
+    text-decoration: underline;
 }
