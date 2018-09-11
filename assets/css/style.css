@@ -2,6 +2,21 @@
     margin-top: 25px;
 }
 
+footer {
+    position: fixed;
+    height: 75px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
+
+.footerContent {
+    padding: 20px;
+}
+
 .fa-2x {
     float:right;
     padding: 5px;
@@ -13,6 +28,12 @@
     color: black;
 
 } 
+
+#otherLogo {
+    position: relative;
+    bottom: 15px;
+    padding: 5px;
+}
 
 #profPic {
     float:right;
