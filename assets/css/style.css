@@ -1,9 +1,35 @@
 .jumbotron {
-    margin-top: 25px;
+    padding: 0 0 0 0;
+    background-color: transparent;
+
+}
+
+.jumboImage {
+    height:100%;
+    width: 100%;
+}
+
+.port-img1 {
+    height:250px;
+    width:100%;
+    float:left;
+    border:3px solid black;
+
+}
+
+.port-img2 {
+    height:250px;
+    width:100%;
+    float:right;
+    border:3px solid black;
+
+}
+
+.sectionHeader {
+    justify-content: center;
 }
 
 footer {
-    position: fixed;
     height: 75px;
     left: 0;
     bottom: 0;
