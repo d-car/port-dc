@@ -61,9 +61,18 @@ div.container.skills {
     text-align: center;
 }
 
+.skillsList {
+    list-style-type: none;
+    text-align: center;
+}
+
+.skillLables {
+    text-align: center;
+}
+
 .contact {
     margin: auto;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .contactButtons {
@@ -77,12 +86,6 @@ div.container.skills {
 
 .fa-9x {
     color:black;
-}
-
-.otherLogo {
-    position: relative;
-    bottom: 15px;
-    padding: 5px;
 }
 
 .footerContent {
