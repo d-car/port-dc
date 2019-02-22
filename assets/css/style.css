@@ -8,15 +8,9 @@
 header.masthead {
     padding-top:10rem;
     padding-bottom:calc(10rem - 56px);
-    background-image:url(../img/architecture-bridges-buildings-1823680.jpg);
-    background-position:center center;
-    background-size:cover
-}
-
-.jumbotron {
-    padding: 0 0 0 0;
-    background-image: url(../img/architecture-bridges-buildings-1823680.jpg);
-    background-size: cover;
+    background-image:url(../img/headerpic3.png);
+    background-position:center;
+    background-size:cover;
 }
 
 .jumboText {
