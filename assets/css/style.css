@@ -4,15 +4,11 @@
     background-size: cover, no-repeat;
 } */
 
-.nav {
+.navbar {
     position: fixed;
     background-color: white;
     width: 100%;
     z-index: 10000;
-}
-
-ul.nav.justify-content-center {
-    width: 100%;
 }
 
 header.masthead {
@@ -31,9 +27,11 @@ header.masthead {
 
 .jumboText {
     color: white;
+    text-shadow: 5px 5px 10px #000000;
 }
 
-div.container.about {
+#about {
+    margin: auto;
     padding: 5rem 0 0 0
 }
 div.container.skills {
@@ -44,14 +42,20 @@ div.container.skills {
     height:250px;
     width:100%;
     float:left;
+    margin: auto;
     border:3px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 .port-img2 {
     height:250px;
     width:100%;
     float:right;
+    margin: auto;
     border:3px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 .sectionTitle {
