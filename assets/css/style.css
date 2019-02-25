@@ -5,17 +5,36 @@
     z-index: 10000;
 }
 
+.nav {
+    background-color: white;
+}
+
 header.masthead {
     padding-top:10rem;
     padding-bottom:calc(10rem - 56px);
-    background-image:url(../img/headerpic3.png);
+    background-image:url(../img/chi.jpg);
     background-position:center;
     background-size:cover;
+    background-position: center;
 }
 
 .jumboText {
     color: white;
     text-shadow: 5px 5px 10px #000000;
+}
+
+.aboutTitle {
+    font-family: 'Teko', sans-serif;
+    font-size: 2.5rem;
+    text-align:center;
+}
+
+.aboutText{
+    font-family: 'Teko', sans-serif;
+    font-size:1.5rem;
+    text-align:center;
+    justify-content: center;
+
 }
 
 #about {
@@ -25,6 +44,18 @@ header.masthead {
 
 #portPic {
     border-radius: 25px;
+    height: 25rem;
+    width: auto;
+    justify-content: center;
+
+    
+}
+
+.portPicContainer {
+    height: 25rem;
+    width: auto;
+    justify-content: center;
+
 }
 
 div.container.skills {
@@ -32,12 +63,15 @@ div.container.skills {
 }
 
 .port-img1 {
-    height:250px;
+    height:25rem;
     width:100%;
     float:left;
     margin: auto;
     border:3px solid black;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image: url("../img/cc.png");
+    background-size: cover;
+    background-position: center;
 
 }
 
@@ -51,17 +85,32 @@ div.container.skills {
 
 }
 
+.portTitles {
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+    font-size: 2rem;
+    color: #D04931;
+}
+
 .sectionTitle {
     text-align: center;
+    font-family: 'Teko', sans-serif;
+    font-size: 3rem;
+    color: #D04931;
+    text-decoration: underline;
 }
 
 .skillsList {
     list-style-type: none;
     text-align: center;
+    font-family: 'Teko', sans-serif;
+    font-size: 1.5rem
 }
 
-.skillLables {
+.skillLabels {
     text-align: center;
+    font-family: 'Teko', sans-serif;
+    font-size: 2rem;
 }
 
 .contact {
@@ -69,18 +118,21 @@ div.container.skills {
     /* width: 100%; */
 }
 
-.contactButtons {
+.contactButton {
     display: inline-block;
     text-align: center;
     justify-content: center;
     padding: 10px;
     color: black;
-
 }
 
-.fa-9x {
+.contactButton:hover { 
+    color: #D04931;
+  }
+
+/* .fa-9x {
     color:black;
-}
+} */
 
 .footerContent {
     margin: auto;
