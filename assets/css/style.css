@@ -12,7 +12,7 @@
 header.masthead {
     padding-top:10rem;
     padding-bottom:calc(10rem - 56px);
-    background-image:url(../img/chi.jpg);
+    background-image:url(../img/pexels-photo-1823680.jpeg);
     background-position:center;
     background-size:cover;
     background-position: center;
@@ -30,11 +30,10 @@ header.masthead {
 }
 
 .aboutText{
-    font-family: 'Teko', sans-serif;
+    font-family: 'Oswald', sans-serif;    
     font-size:1.5rem;
     text-align:center;
     justify-content: center;
-
 }
 
 #about {
@@ -46,16 +45,13 @@ header.masthead {
     border-radius: 25px;
     height: 25rem;
     width: auto;
-    justify-content: center;
-
-    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
 }
 
 .portPicContainer {
     height: 25rem;
     width: auto;
     justify-content: center;
-
 }
 
 div.container.skills {
@@ -67,29 +63,25 @@ div.container.skills {
     width:100%;
     float:left;
     margin: auto;
-    border:3px solid black;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-image: url("../img/cc.png");
     background-size: cover;
     background-position: center;
-
 }
 
-.port-img2 {
+/* .port-img2 {
     height:250px;
     width:100%;
     float:right;
     margin: auto;
     border:3px solid black;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-}
+} */
 
 .portTitles {
     text-align: center;
-    font-family: 'Teko', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 2rem;
-    color: #D04931;
 }
 
 .sectionTitle {
@@ -103,19 +95,19 @@ div.container.skills {
 .skillsList {
     list-style-type: none;
     text-align: center;
-    font-family: 'Teko', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 1.5rem
 }
 
 .skillLabels {
     text-align: center;
-    font-family: 'Teko', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 2rem;
+    text-decoration: underline;
 }
 
 .contact {
     margin: auto;
-    /* width: 100%; */
 }
 
 .contactButton {
@@ -123,16 +115,12 @@ div.container.skills {
     text-align: center;
     justify-content: center;
     padding: 10px;
-    color: black;
+    color: black;   
 }
 
 .contactButton:hover { 
     color: #D04931;
   }
-
-/* .fa-9x {
-    color:black;
-} */
 
 .footerContent {
     margin: auto;
