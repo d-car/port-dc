@@ -5,8 +5,9 @@
     z-index: 10000;
 }
 
-.nav {
-    background-color: white;
+.nav-link.active {
+    color: #D04931;
+
 }
 
 header.masthead {
@@ -24,13 +25,13 @@ header.masthead {
 }
 
 .aboutTitle {
-    font-family: 'Teko', sans-serif;
+    font-family: 'Padauk', sans-serif;
     font-size: 2.5rem;
     text-align:center;
 }
 
 .aboutText{
-    font-family: 'Oswald', sans-serif;    
+    font-family: 'Padauk', sans-serif; 
     font-size:1.5rem;
     text-align:center;
     justify-content: center;
@@ -80,7 +81,7 @@ div.container.skills {
 
 .portTitles {
     text-align: center;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Padauk', sans-serif;
     font-size: 2rem;
 }
 
@@ -95,13 +96,13 @@ div.container.skills {
 .skillsList {
     list-style-type: none;
     text-align: center;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Padauk', sans-serif;
     font-size: 1.5rem
 }
 
 .skillLabels {
     text-align: center;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Padauk', sans-serif;
     font-size: 2rem;
     text-decoration: underline;
 }
