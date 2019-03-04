@@ -55,10 +55,6 @@ header.masthead {
     justify-content: center;
 }
 
-div.container.skills {
-    text-align: center;
-}
-
 .port-img1 {
     height:25rem;
     width:100%;
@@ -69,15 +65,6 @@ div.container.skills {
     background-size: cover;
     background-position: center;
 }
-
-/* .port-img2 {
-    height:250px;
-    width:100%;
-    float:right;
-    margin: auto;
-    border:3px solid black;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-} */
 
 .portTitles {
     text-align: center;
@@ -93,13 +80,6 @@ div.container.skills {
     text-decoration: underline;
 }
 
-.skillsList {
-    list-style-type: none;
-    text-align: center;
-    font-family: 'Padauk', sans-serif;
-    font-size: 1.5rem
-}
-
 .skillLabels {
     text-align: center;
     font-family: 'Padauk', sans-serif;
@@ -107,16 +87,22 @@ div.container.skills {
     text-decoration: underline;
 }
 
-.contact {
-    margin: auto;
+.listContainer {
+    display: flex;
+    text-align: center;
+    font-family: 'Padauk', sans-serif;
+    font-size: 1.5rem
+}
+
+.buttonContainer {
+    display: flex;
+    height:10vh;
+    justify-content: center;
 }
 
 .contactButton {
-    display: inline-block;
-    text-align: center;
-    justify-content: center;
-    padding: 10px;
-    color: black;   
+    color: black;
+    padding: 25px;
 }
 
 .contactButton:hover { 
