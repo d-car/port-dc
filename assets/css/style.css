@@ -145,16 +145,17 @@ header.masthead {
     text-align: center;
 }
 
-@media only screen and (max-width: 768px) {
-    body header.masthead {
-        display: flex;
-        background-image:url('../img/architecture-bridges-buildings-1823680.jpg');
-        height: 100vh;
-        width: 100vw;;
-        background-position:center;
-        background-size:cover;
-        background-position: center;
-        justify-content: center;
-        align-items: center;
+@media screen and (max-width:600px) {
+
+    body .aboutTitle {
+        font-family: 'Padauk', sans-serif;
+        font-size: 2.5rem;
+        color: pink;
+        text-align:center;
+        padding: 15px;
+    }
+
+    body .sectionTitle {
+        color:green;
     }
 }
