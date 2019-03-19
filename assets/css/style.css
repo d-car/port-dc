@@ -108,25 +108,26 @@ header.masthead {
     justify-content: center;
 }
 
-#pbox-1 {
-    background-image:url("../img/proj-1.png");
-    background-position:center;
-    background-size:cover;
+#pbox1pic {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
-#pbox-overlay {
-    background-color: black;
+/* #pbox-overlay {
+    height: 450px;
+    width: 33%;
     opacity: 1;
     filter: alpha(opacity=100);
     justify-content: center;
     align-items: center;
-    z-index: 1000
-}
+
+} */
 
 .buttonContainer {
     display: flex;
     height:10vh;
-    justify-content: center;
+    justify-content: space-evenly;
+    
 }
 
 .contactButton {

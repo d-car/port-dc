@@ -1,5 +1,5 @@
 const pboxOverlay = document.getElementById("pbox-overlay");
-const pbox1 = document.getElementById("pbox-1");
+const pbox1 = document.getElementById("pbox1pic");
 
 pbox1.addEventListener("mouseover", function () {
     console.log("mouseover")
