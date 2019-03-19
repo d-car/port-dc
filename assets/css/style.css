@@ -121,7 +121,6 @@ body {
 
 .pbox {
     height: 450px;
-    width: 33%;
     align-items: center;
     justify-content: center;
 }
@@ -131,9 +130,8 @@ body {
 
 }
 
-#pbox1pic:hover {
+#pbox1pic:hover, #pbox1pic:active {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-
 }
 
 .buttonContainer {
@@ -166,6 +164,23 @@ body {
 
 @media screen and (max-width: 768px) {
 
+    body {
+        height: 100%;
+        width: 100%;
+    }
+
+    .masthead {
+        display: flex;
+        flex-direction:column;
+        background-image:url('../img/architecture-bridges-buildings-1823680.jpg');
+        height: 1080px;
+        background-position:center;
+        background-size:cover;
+        justify-content: center;
+        align-items: center;
+        z-index: -10;
+    }
+
     .aboutContainer {
         background: #F0F0DF;
         display: flex;
@@ -194,5 +209,23 @@ body {
         justify-content: center;
         font-family: 'Padauk', sans-serif;
         font-size: 1.5rem
+    }
+
+    .projectContainer {
+        width: 100vw;
+    }
+    
+    .pbox {
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #pbox1pic {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        width: 100vw;
+    }
+    
+    #pbox1pic:hover, #pbox1pic:active {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     }
 }
