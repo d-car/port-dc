@@ -2,7 +2,7 @@ body {
     background: #2B3A42;
 }
 
-.masthead {
+header {
     display: flex;
     background-image:url('../img/architecture-bridges-buildings-1823680.jpg');
     height: 1080px;
@@ -30,7 +30,7 @@ body {
 
 .jumboTextContainer {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
     z-index: 1;
@@ -127,6 +127,7 @@ body {
 
 #pbox1pic {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 50vw;
 
 }
 
@@ -162,14 +163,9 @@ body {
     align-items: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
 
-    body {
-        height: 100%;
-        width: 100%;
-    }
-
-    .masthead {
+     body header {
         display: flex;
         flex-direction:column;
         background-image:url('../img/architecture-bridges-buildings-1823680.jpg');
@@ -181,7 +177,7 @@ body {
         z-index: -10;
     }
 
-    .aboutContainer {
+    body .aboutContainer {
         background: #F0F0DF;
         display: flex;
         flex-direction: column;
@@ -193,7 +189,7 @@ body {
         align-items: center;
     }
 
-    .portPic {
+    body .portPic {
         justify-content: center;
         border-radius: 25px;
         height: 25rem;
@@ -202,7 +198,7 @@ body {
 
     }
 
-    .listContainer {
+    body .listContainer {
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -211,21 +207,21 @@ body {
         font-size: 1.5rem
     }
 
-    .projectContainer {
+    body .projectContainer {
         width: 100vw;
     }
     
-    .pbox {
+    body .pbox {
         align-items: center;
         justify-content: center;
     }
     
-    #pbox1pic {
+    body #pbox1pic {
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         width: 100vw;
     }
     
-    #pbox1pic:hover, #pbox1pic:active {
+    body #pbox1pic:hover, #pbox1pic:active {
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     }
 }
