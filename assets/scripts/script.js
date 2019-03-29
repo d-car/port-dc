@@ -7,4 +7,4 @@ function navCollapse() {
     } else {
       nav.className = 'nav';
     }
-  }
+}
