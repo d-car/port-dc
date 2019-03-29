@@ -3,15 +3,28 @@
 
 <head>
     <meta charset='utf-8'>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'>
     <title>Dan C</title>
     <link rel='stylesheet' type='text/css' href='assets/css/style.css'>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
-        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Padauk|Teko" rel="stylesheet">
-</head>
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.3.1/css/all.css'
+        integrity='sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU' crossorigin='anonymous'>
+    <link href='https://fonts.googleapis.com/css?family=Archivo+Black|Padauk|Teko' rel='stylesheet'> </head>
 
 <body>
+        
+    <div class='nav' id='navbar'>
+        <a href='#home'>Home</a>
+        <a href='#about'>About</a>
+        <a href='#projects'>Projects</a>
+        <a href='#contact'>Contact</a>
+
+        <a href='javascript:void(0);' class='icon' onclick='navCollapse()'>
+            <i class='fa fa-bars'></i>
+        </a>
+    </div>
+              
+
+
     <header>
         <div class='heroImg'>
             <div class='heroTextBg'></div>
@@ -23,83 +36,86 @@
     </header>
 
     <div class="aboutTitle">
-        <h2 class="aboutTitle">Hey, I'm Dan</h2>
+        <h2 class="aboutTitle" id='about'>Hey, I'm Dan</h2>
     </div>
 
     <div class='aboutContainer'>
-    <div class="aboutTextContainer" id="about">
-        <p class="aboutText">I'm a web developer based in Chicago, Illinois. My education is a mix of structured courses
+    <div class='aboutTextContainer' id='about'>
+        <p class='aboutText'>I'm a web developer based in Chicago, Illinois. My education is a mix of structured courses
             and self-teaching. I'm currently looking for employment opportunities, collaborations, or other opportunities to
             connect. Feel free to reach out if you'd like to talk!
         </p>
     </div>
-    <img src="assets/img/port-pic2.png" class="portPic">
+    <img src='assets/img/port-pic2.png' class='portPic'>
     </div>
 
 
-    <div class="container" id="skills">
-        <h2 class="sectionTitle">Skills</h2>
+    <div class='container' id='skills'>
+        <h2 class='sectionTitle'>Skills</h2>
     </div>
     <br>
       
-    <div class="listContainer">
+    <div class='listContainer'>
       
-        <div class="skillList">
-            <h3 class="skillLabels">Languages</h3>
-            <p class="skillItem">HTML5</p>
-            <p class="skillItem">CSS3</p>
-            <p class="skillItem">JavaScript</p>
+        <div class='skillList'>
+            <h3 class='skillLabels'>Languages</h3>
+            <p class='skillItem'>HTML5</p>
+            <p class='skillItem'>CSS3</p>
+            <p class='skillItem'>JavaScript</p>
         </div>
       
-        <div class="skillList">
-            <h3 class="skillLabels">Frameworks/Libraries</h3>
-            <p class="skillItem">npm</p>
-            <p class="skillItem">Expresss.js</p>
-            <p class="skillItem">React.js</p>
-            <p class="skillItem">Node.js</p>
+        <div class='skillList'>
+            <h3 class='skillLabels'>Frameworks/Libraries</h3>
+            <p class='skillItem'>jQuery</p>
+            <p class='skillItem'>Bootstrap</p>
+            <p class='skillItem'>Node.js</p>
+            <p class='skillItem'>npm</p>
+            <p class='skillItem'>Expresss.js</p>
+            <p class='skillItem'>React.js</p>
+
       
         </div>
       
-        <div class="skillList">
-            <h3 class="skillLabels">Databases</h3>
-            <p class="skillItem">MongoDB</p>
-            <p class="skillItem">MySQL</p>
+        <div class='skillList'>
+            <h3 class='skillLabels'>Databases</h3>
+            <p class='skillItem'>MongoDB</p>
+            <p class='skillItem'>MySQL</p>
         </div>
       
-        <div class="skillList">
-            <h3 class="skillLabels">Tools</h3>
-            <p class="skillItem">Git</p>
-            <p class="skillItem">GitHub</p>
-            <p class="skillItem">Heroku</p>
+        <div class='skillList'>
+            <h3 class='skillLabels'>Tools</h3>
+            <p class='skillItem'>Git</p>
+            <p class='skillItem'>GitHub</p>
+            <p class='skillItem'>Heroku</p>
         </div>
       
     </div>
 
-    <div class="projects">
-        <h2 class="sectionTitle">Projects</h2>
+    <div class='projects'>
+        <h2 class='sectionTitle' id='projects'>Projects</h2>
     </div>
     <br>
-    <div class="projectContainer">
-        <a href="https://d-car.github.io/gifsift">
-            <img src="./assets/img/proj-1small.png" id="pbox1pic" />
+    <div class='projectContainer'>
+        <a href='https://d-car.github.io/gifsift'>
+            <img src='./assets/img/proj-1small.png' id='pbox1pic' />
         </a>
     </div>
 
-    <div class="container" id="contact">
-        <h2 class="sectionTitle">Contact</h2>
+    <div class='container' id='contact'>
+        <h2 class='sectionTitle'>Contact</h2>
     </div>
     <br>
-    <div class="container buttonContainer">
-        <a href="mailto:danielscarstensen@gmail.com" class="contactButton">
-            <i class="fas fa-envelope-open fa-9x"></i>
+    <div class='container buttonContainer'>
+        <a href='mailto:danielscarstensen@gmail.com' class='contactButton'>
+            <i class='fas fa-envelope-open fa-9x'></i>
         </a>
       
-        <a href="https://github.com/d-car" class="contactButton">
-            <i class="fab fa-github fa-9x"></i>
+        <a href='https://github.com/d-car' class='contactButton'>
+            <i class='fab fa-github fa-9x'></i>
         </a>
       
-        <a href="https://www.linkedin.com/in/danielscarstensen/" class="contactButton">
-            <i class="fab fa-linkedin fa-9x"></i>
+        <a href='https://www.linkedin.com/in/danielscarstensen/' class='contactButton'>
+            <i class='fab fa-linkedin fa-9x'></i>
         </a>
 
     </div>
@@ -110,7 +126,7 @@
     <br>
 
     <footer>
-        <div class="footerContent">
+        <div class='footerContent'>
             &copy; 2019. All Rights Reserved.
         </div>
     </footer>
@@ -123,5 +139,5 @@
 
 
 
-
+<script src='./assets/scripts/script.js'></script>
 </body>

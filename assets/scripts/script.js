@@ -1,8 +1,10 @@
-// const pboxOverlay = document.getElementById("pbox-overlay");
-// const pbox1 = document.getElementById("pbox1pic");
+// mobile navbar
 
-// pbox1.addEventListener("mouseover", function () {
-//     console.log("mouseover")
-//     event.document.getElementById("pbox-overlay").setAttribute("style", "opacity: 0.5");
-
-// })
+function navCollapse() {
+    const nav = document.getElementById('navbar');
+    if (nav.className === 'nav') {
+      nav.className += ' responsive';
+    } else {
+      nav.className = 'nav';
+    }
+  }
