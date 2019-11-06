@@ -16,19 +16,25 @@
     <link rel='stylesheet' type='text/css' href='assets/css/style.css'>
     <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.3.1/css/all.css'
         integrity='sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU' crossorigin='anonymous'>
-    <link href='https://fonts.googleapis.com/css?family=Archivo+Black|Padauk|Teko' rel='stylesheet'> </head>
+    <link href='https://fonts.googleapis.com/css?family=Archivo+Black|Padauk|Teko' rel='stylesheet'>
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+</head>
 
 <body>
         
-    <div class='nav' id='navbar'>
-        <a href='#'>Home</a>
-        <a href='#about'>About</a>
-        <a href='#projects'>Projects</a>
-        <a href='#contact'>Contact</a>
+    <div class='navWrap'>
+        <div class='nav' id='navbar'>
+            <a href='#about' class='scroll'>About</a>
+            <a href='#projects' class='scroll'>Projects</a>
+            <a href='#contact' class='scroll'>Contact</a>
 
-        <a href='javascript:void(0);' class='icon' onclick='navCollapse()'>
-            <i class='fa fa-bars'></i>
-        </a>
+            <a href='javascript:void(0);' class='icon' onclick='navCollapse()'>
+                <i class='fa fa-bars'></i>
+            </a>
+        </div>
     </div>
               
 
@@ -36,35 +42,32 @@
     <header>
         <div class='heroImg'>
             <div class='heroTextBg'></div>
-            <div class='heroText'>
-                <h2>Dan Carstensen</h2>
-                <h3 class='htext2'>Web Development</h3>
-                <!-- <h3 class='htext2'>Project Management</h3> -->
-            </div>
+                <div class='heroText'>
+                    <h2 id='heroName'>Dan Carstensen</h2>
+                    <h3 class='heroDescrip'>Web Development</h3>
+                    <h3 class='heroDescrip' id='descrip2'>Project Management</h3>
+                </div>
         </div>
     </header>
 
-    <div class="aboutTitle">
-        <h2 class="aboutTitle" id='about'>Hey, I'm Dan</h2>
-    </div>
-
     <div class='aboutContainer'>
-    <div class='aboutTextContainer' id='about'>
-        <h2 class="aboutTitle" id='about'>Hey, I'm Dan</h2>
-        <p class='aboutText'>I'm a web developer based in Chicago, Illinois. My education is a mix of structured courses
-            and self-teaching. I'm currently looking for employment opportunities, collaborations, or other opportunities to
-            connect. Feel free to reach out if you'd like to talk!
+        <div class='aboutIntroContainer' id='about'>
+            <h2 class="aboutTitle" id='about'>Hey, I'm Dan</h2>
+            <div class='portImgContainer'>
+                <img src='./assets/img/webportrait.png' alt='Dan C' id='portrait'>
+            </div>
+        </div>
+        <p class='aboutText'>I'm a web developer based in Chicago. I'm currently looking for employment opportunities, collaborations, or other opportunities to
+            connect.
         </p>
-    </div>
-    <img src='assets/img/port-pic2.png' class='portPic'>
+
     </div>
 
 
     <div class='container' id='skills'>
         <h2 class='sectionTitle'>Skills</h2>
     </div>
-
-      
+     
     <div class='listContainer'>
       
         <div class='skillList'>
@@ -79,24 +82,21 @@
             <p class='skillItem'>jQuery</p>
             <p class='skillItem'>Bootstrap</p>
             <p class='skillItem'>Node.js</p>
-            <p class='skillItem'>npm</p>
             <p class='skillItem'>Expresss.js</p>
-            <p class='skillItem'>React.js</p>
-
-      
+            <p class='skillItem'>React.js</p>     
         </div>
       
         <div class='skillList'>
             <h3 class='skillLabels'>Databases</h3>
-            <p class='skillItem'>MongoDB</p>
             <p class='skillItem'>MySQL</p>
+            <p class='skillItem'>MongoDB</p>
+
         </div>
       
         <div class='skillList'>
             <h3 class='skillLabels'>Tools</h3>
             <p class='skillItem'>Git</p>
             <p class='skillItem'>GitHub</p>
-            <p class='skillItem'>Heroku</p>
         </div>
       
     </div>
@@ -120,16 +120,13 @@
     <div class='container buttonContainer'>
         <a href='mailto:danielscarstensen@gmail.com' class='contactButton'>
             <i class='fas fa-envelope-open fa-9x'></i>
-        </a>
-      
+        </a>      
         <a href='https://github.com/d-car' class='contactButton'>
             <i class='fab fa-github fa-9x'></i>
-        </a>
-      
+        </a>     
         <a href='https://www.linkedin.com/in/danielscarstensen/' class='contactButton'>
             <i class='fab fa-linkedin fa-9x'></i>
         </a>
-
     </div>
 
     <br>
@@ -142,14 +139,6 @@
             &copy; 2019. All Rights Reserved.
         </div>
     </footer>
-
-
-
-
-
-
-
-
 
 <script src='./assets/scripts/script.js'></script>
 </body>
