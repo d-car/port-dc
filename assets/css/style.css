@@ -117,6 +117,7 @@ header {
 #portrait {
     width: 25vw;
     border-radius: 25px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .sectionTitle {
@@ -280,10 +281,6 @@ footer {
         font-size: 2.5vh;
         width: 100%;
         position: absolute;
-<<<<<<< HEAD
-        top: 28%;        
-    }
-=======
         top: 25%;        
     }
     
@@ -315,8 +312,9 @@ footer {
         font-size: 1.3rem;
         text-align: center;
         width: 75vw;
-
         overflow: hidden;
+        position: relative;
+        top: 2.5vh;
     }
 
     .aboutTitle {
@@ -444,7 +442,6 @@ footer {
         position: relative;
         bottom: 40vh;
     }
->>>>>>> ee276123d90708b129950fbb7054269d9167cc1c
     
     .heroDescripText {
         font-size: 2vh;
@@ -474,11 +471,8 @@ footer {
         font-size: 1.3rem;
         text-align: center;
         width: 75vw;
-<<<<<<< HEAD
         position: relative;
         top: 2vh;
-=======
->>>>>>> ee276123d90708b129950fbb7054269d9167cc1c
         overflow: hidden;
     }
 
@@ -492,7 +486,7 @@ footer {
         width: 35vw;
         z-index: -100;
         border-radius: 25px;
-        box-shadow: 2.5px 2.5px 2px 2.5px #FF9000;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     }
     
     .skillLabels {
@@ -524,13 +518,10 @@ footer {
         transition: 0.3s;
     }
 
+
     footer {
         position: relative;
-<<<<<<< HEAD
         top: 15vh;
-=======
-        top: 20vh;
->>>>>>> ee276123d90708b129950fbb7054269d9167cc1c
     }
 
 }
@@ -653,6 +644,7 @@ footer {
         top: 5vh;
         width: 35vw;
         z-index: -100
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     }
     
     .skillLabels {
