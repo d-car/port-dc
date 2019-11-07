@@ -24,6 +24,7 @@ body {
     float: left;
     display: block;
     color: #f2f2f2;
+    font-family: 'Aleo', serif;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -54,11 +55,12 @@ header {
 
 .heroTextBg {
     background: black;
-    opacity: 0.6;
+    opacity: 0.85;
     filter: alpha(opacity=60);
     height: 40vh;
-    width: 100%;
+    width: 50%;
     margin-top: 25vh;
+    margin-left: 25vw;
     z-index: -50;
 }
 
@@ -66,7 +68,8 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Archivo Black', sans-serif;
+    align-content: center;
+    font-family: 'Lexend Mega', sans-serif;
     color: #F0F0DF;
     font-size: 3vh;
     width: 100%;
@@ -74,13 +77,11 @@ header {
     bottom: 40vh;
 }
 
-#heroName {
-    font-size: 7vh;
-}
-
-.heroDescrip {
-    position: relative;
-    bottom: 8vh;
+.heroDescripText {
+    font-size: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .aboutTitle {
@@ -106,7 +107,7 @@ header {
 }
 
 .aboutText{
-    font-family: 'Padauk', sans-serif;
+    font-family: 'Aleo', serif;
     color: #F0F0DF; 
     font-size: 2rem;
     overflow-x: hidden;
@@ -138,7 +139,7 @@ header {
     display: flex;
     text-align: center;
     justify-content: center;
-    font-family: 'Padauk', sans-serif;
+    font-family: 'Aleo', serif;
     font-size: 1.5rem
 }
 
@@ -212,7 +213,7 @@ footer {
 
 }
 
-@media screen and (min-width: 300px) and (max-width: 768px) {
+@media screen and (min-width: 350px) and (max-width: 768px) {
     
     .nav {
         position: fixed;
@@ -223,10 +224,7 @@ footer {
       
     .nav a {
        font-size: 1.25rem;
-    }
-    
-    .nav a {
-        display: none;
+       display: none;
     }
 
     .nav a:hover, .nav a:active {
@@ -264,30 +262,33 @@ footer {
         display: flex;
         flex-direction: column;
         background: black;
-        opacity: 0.6;
+        opacity: 0.85;
         filter: alpha(opacity=60);
-        height: 50vhvh;
+        height: 30vh;
         width: 100%;
         top: 25vh;
+        margin-left: 0vw;
         z-index: -50;
     }
 
     .heroText {
-        font-size: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        font-family: 'Lexend Mega', sans-serif;
+        color: #F0F0DF;
+        font-size: 2.5vh;
+        width: 100%;
+        position: absolute;
+        top: 25%;        
     }
-
-    #heroName {
-        font-size: 6vh;
-    }
-
-    .heroDescrip {
-        position: relative;
-        bottom: 5vh;
-    }
-
-    #descrip2 {
-        position: relative;
-        bottom: 10vh;
+    
+    .heroDescripText {
+        font-size: 2vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .aboutContainer {
@@ -295,6 +296,10 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .aboutTitle {
+        text-decoration: none;
     }
 
     .aboutIntroContainer {
@@ -307,8 +312,8 @@ footer {
         font-size: 1.3rem;
         text-align: center;
         width: 75vw;
-        position: relative;
-        top: 5vh;
+
+        overflow: hidden;
     }
 
     .aboutTitle {
@@ -338,6 +343,7 @@ footer {
 
     .buttonContainer {
         display: flex;
+        flex-wrap: wrap;
         width: 100%;
         height:5vh;
         justify-content: space-evenly;
@@ -350,6 +356,168 @@ footer {
         padding: 25px;
         transition: 0.3s;
     }
+
+    footer {
+        position: relative;
+        top: 15vh;
+    }
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 349px) {
+
+    .skillLabels {
+        text-align: center;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 1.75rem;
+        text-decoration: underline;
+    }
+
+    .nav {
+        position: fixed;
+        display: block;
+        width: 100%;
+        border-radius: 0;
+    }
+      
+    .nav a {
+       font-size: 1.25rem;
+       display: none;
+    }
+
+    .nav a:hover, .nav a:active {
+        color: #FF9000;
+        transform: scale(1.05);
+    }
+
+    .nav a.icon {
+        float: right;
+        display: block;
+    }
+
+    .nav.responsive {
+        position: fixed;
+    }
+
+    .nav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+
+    .nav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+
+    .heroImg {
+        width: 100vw;
+        height: 98vh;
+    }
+
+    .heroTextBg {
+        display: flex;
+        flex-direction: column;
+        background: black;
+        opacity: 0.85;
+        filter: alpha(opacity=60);
+        height: 50vh;
+        width: 100%;
+        top: 25vh;
+        margin-left: 0vw;
+        z-index: -50;
+    }
+
+    .heroText {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        font-family: 'Lexend Mega', sans-serif;
+        color: #F0F0DF;
+        font-size: 3vh;
+        width: 100%;
+        position: relative;
+        bottom: 40vh;
+    }
+    
+    .heroDescripText {
+        font-size: 2vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aboutContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutTitle {
+        text-decoration: none;
+    }
+
+    .aboutIntroContainer {
+        display: flex;
+        flex-direction: row;
+        width: 75vw;
+    }
+
+    .aboutText {
+        font-size: 1.3rem;
+        text-align: center;
+        width: 75vw;
+        overflow: hidden;
+    }
+
+    .aboutTitle {
+        font-size: 2rem;
+    }
+
+    #portrait {
+        position: relative;
+        top: 5vh;
+        width: 35vw;
+        z-index: -100
+    }
+    
+    .skillLabels {
+        font-size: 1.5rem;
+    }
+
+    .listContainer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        font-family: 'Padauk', sans-serif;
+        font-size: 1.3rem
+    }
+
+    .buttonContainer {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height:5vh;
+        justify-content: space-evenly;
+        
+    }
+    
+    .contactButton {
+        font-size: 0.5rem;
+        color: #F0F0DF;
+        padding: 25px;
+        transition: 0.3s;
+    }
+
+    footer {
+        position: relative;
+        top: 20vh;
+    }
+
 }
 
 
